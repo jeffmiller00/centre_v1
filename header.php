@@ -14,31 +14,23 @@ if(preg_match('/MSIE/i',$u_agent)) { $isIE = True; }
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="robots" content="index,follow" />
-<?php echo '<meta name="description" content="'.$metas['description'].'" />'; ?>
-<?php echo '<meta name="keywords" content="'.$metas['keywords'].'" />'; ?>
-<meta name="author" content="Jeff Miller, Chicago" />
-<meta name="security" content="public" />
-<meta name="revisit-after" content="7 days" />
-<meta http-equiv="Content-Language" CONTENT="EN" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="distribution" content="global" />
-<meta name="google-site-verification" content="5s5UG3R4PRJtUXYBctAdTtSPcX3CypmyFd2asuX2nxI" />
-<?php echo '<title>'.$metas['title'].'</title>'; ?>
-<?php echo '<link href="'.$dir.'/css/slimstyle.css" rel="stylesheet" media="screen" type="text/css" />'; ?>
+	<meta name="robots" content="index,follow" />
+	<?php echo '<meta name="description" content="'.$metas['description'].'" />'; ?>
+	<?php echo '<meta name="keywords" content="'.$metas['keywords'].'" />'; ?>
+	<meta name="author" content="Jeff Miller, Chicago" />
+	<meta name="security" content="public" />
+	<meta name="revisit-after" content="7 days" />
+	<meta http-equiv="Content-Language" CONTENT="EN" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="distribution" content="global" />
+	<meta name="google-site-verification" content="5s5UG3R4PRJtUXYBctAdTtSPcX3CypmyFd2asuX2nxI" />
+	<?php echo '<title>'.$metas['title'].'</title>'; ?>
+	<?php echo '<link href="'.$dir.'/css/slimstyle.css" rel="stylesheet" media="screen" type="text/css" />'; ?>
 
-<!--[if lte IE 8]>
-<script src="<?php echo $dir; ?>/js/html5.js" type="text/javascript"></script>
-<![endif]-->
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<?php 
-if ($page == "gallery.php") {
-	echo "<script type='text/javascript' src='gallery/js/prototype.js'></script>";
-	echo "<script type='text/javascript' src='gallery/js/scriptaculous.js?load=effects'></script>";
-	echo "<script type='text/javascript' src='gallery/js/lightbox.js'></script>";
-	echo "<link rel='stylesheet' href='gallery/css/lightbox.css' type='text/css' media='screen' />";
-}
-?>
+	<!--[if lte IE 8]>
+	<script src="<?php echo $dir; ?>/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 </head>
 
 <body>
