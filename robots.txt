@@ -1,0 +1,4 @@
+# robots.txt file for http://thecentrehall.com/
+User-agent: *
+sitemap: http://cdn.attracta.com/sitemap/21660.xml.gz
+Allow: /
